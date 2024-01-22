@@ -53,6 +53,73 @@ class HomePage extends StatelessWidget {
                   )
                 ],
               ),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Padding(
+              padding: EdgeInsets.symmetric(
+                horizontal: 30,
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Column(
+                    children: [
+                      Icon(
+                        Icons.call,
+                        color: Colors.blueAccent,
+                        size: 30,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(
+                        "CALL",
+                        style: TextStyle(
+                          color: Colors.blueAccent,
+                        ),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(
+                        Icons.map,
+                        color: Colors.blueAccent,
+                        size: 30,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(
+                        "ROUTE",
+                        style: TextStyle(
+                          color: Colors.blueAccent,
+                        ),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(
+                        Icons.share,
+                        color: Colors.blueAccent,
+                        size: 30,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(
+                        "SHARE",
+                        style: TextStyle(
+                          color: Colors.blueAccent,
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
             )
           ],
         ),
