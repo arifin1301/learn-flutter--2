@@ -17,6 +17,7 @@ class HomePage extends StatelessWidget {
                 horizontal: 30,
               ),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -37,6 +38,19 @@ class HomePage extends StatelessWidget {
                       )
                     ],
                   ),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.favorite,
+                        color: Colors.orange,
+                        size: 29,
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Text("4.2"),
+                    ],
+                  )
                 ],
               ),
             )
